@@ -1,0 +1,57 @@
+{
+    "animals": [
+    {
+       " name": "Todd", 
+        "breed": "Cat", 
+        "id": 1
+    },
+    {
+        "name": "Chester",
+        "breed": "Dog", 
+        "id": 2
+    },
+    {
+        "name": "Theo",
+        "breed": "Dog",
+        "id": 3
+    },
+    {
+        "name": "Winnie",
+        "breed": "Dog",
+        "id": 4
+    },
+    {
+        "name": "Kiwu",
+        "breed": "Cat",
+        "id": 5
+    },
+    {
+        "name": "Milo",
+        "breed": "Cat",
+        "id": 6
+    }
+],
+"employees": [
+    {
+        "name": "Julian", 
+        "posistion": "Cashier", 
+        "id": 1
+    },
+    {
+        "name": "Mary", 
+        "posistion": "Owner", 
+        "id": 2
+    },
+    {
+        "name": "Jake", 
+        "posistion": "Manager", 
+        "id": 
+        3
+    },
+    {
+        "name": "Amy", 
+        "posistion": "Stocker", 
+        "id": 4
+    }
+]
+}

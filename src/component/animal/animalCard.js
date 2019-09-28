@@ -4,20 +4,17 @@ import pup from "./dog.svg"
 
 export default class AnimalCard extends Component {
   render() {
+    console.log("here")
     return (
       <div className="card">
         <div className="card-content">
           <picture>
           </picture>
-          {
-              this.props.animals.map( animal => 
-                <div key={animal.id}>
+                <div>
                 <img src={pup} alt="My Dog" />
-                <h3>Name: <span className="card-petname">{animal.name}</span></h3>
-                <p>Breed: {animal.breed}</p>
+                <h3>Name: <span className="card-petname">{this.props.animal.name}</span></h3>
+                <p>Breed: {this.props.animal.breed}</p>
             </div>
-            )
-        }
         </div>
       </div>
     );

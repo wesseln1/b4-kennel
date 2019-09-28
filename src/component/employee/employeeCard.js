@@ -3,20 +3,17 @@ import worker from "./worker.png"
 
 export default class EmployeeCards extends Component {
     render() {
+      console.log("here")
       return (
         <div className="card">
           <div className="card-content">
             <picture>
             </picture>
-            {
-                this.props.employees.map( employee =>
-                  <div key={employee.name}>
+                  <div key={this.props.employee.name}>
                   <img src={worker} alt="My Dog" />
-                  <h3>Name: <span className="card-petname">{employee.name}</span></h3>
-                  <p>Posistion: {employee.breed}</p>
+                  <h3>Name: <span className="card-petname">{this.props.employee.name}</span></h3>
+                  <p>Posistion: {this.props.employee.posistion}</p>
               </div>
-              )
-          }
           </div>
         </div>
       );
