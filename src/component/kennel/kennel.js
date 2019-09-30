@@ -4,8 +4,8 @@ import './kennel.css'
 // import OwnerCard from "./owner/ownerCard"
 // import LocationCard from "./location/locationCard"
 // import EmployeeCards from "./employee/employeeCard"
-import NavBar from './nav/nav'
-import ApplicationViews from './applicationViews/applicationViews'
+import NavBar from '../nav/nav'
+import ApplicationViews from '../applicationViews/applicationViews'
 
 class Kennel extends Component {
 

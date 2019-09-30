@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import person from "./person.png"
 
+// rendering each card to the dom
 export default class OwnerCard extends Component {
     render() {
-      console.log(this.props.card)
       return (
         <div className="card">
           <div className="card-content">

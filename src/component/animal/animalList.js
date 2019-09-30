@@ -20,6 +20,7 @@ componentDidMount(){
 }
 
 render(){
+    // rendering card container and calling card function to render ALL cards
     return(
         <div className="container-cards" >
             {this.state.animals.map(animal => <AnimalCard key={animal.id} animal={animal}/>)}

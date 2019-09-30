@@ -10,8 +10,7 @@ class OwnerList extends Component {
     };
 
     componentDidMount() {
-        console.log("OWNER LIST: ComponentDidMount");
-        // getAll from ownerManager and hang on to the date; put it in state
+    // getAll from ownerManager and hang on to the date; put it in state
         ownerManager.getAll().then(owners => {
             this.setState({
                 owners: owners
@@ -19,8 +18,7 @@ class OwnerList extends Component {
         });
     }           
     render() {
-        console.log("OWNER LIST: Render", this.state.owners);
-                    
+    // rendering card container and calling card function to render ALL cards             
     return (
         <div className="container-cards">
             {this.state.owners.map(owner => (

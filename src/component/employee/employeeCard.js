@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import worker from "./worker.png";
 
+// rendering each card to the dom
 export default class EmployeeCards extends Component {
   render() {
-    console.log("here");
     return (
       <div className="card">
         <div className="card-content">

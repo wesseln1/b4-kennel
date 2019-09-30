@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import place from "./place.png";
 
+// rendering each card to the dom
 export default class LocationCard extends Component {
   render() {
     return (

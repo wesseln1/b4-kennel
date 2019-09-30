@@ -19,7 +19,7 @@ class LocationList extends Component {
   }
 
   render() {
-
+// rendering card container and calling card function to render ALL cards
     return (
       <div className="container-cards">
         {this.state.locations.map(location => (

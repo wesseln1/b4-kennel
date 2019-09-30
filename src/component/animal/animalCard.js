@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import pup from "./dog.svg"
-// import kitty from "./cat.jpg"
 
+// rendering each card to the dom
 export default class AnimalCard extends Component {
   render() {
-    console.log("here")
     return (
       <div className="card">
         <div className="card-content">
@@ -20,5 +19,3 @@ export default class AnimalCard extends Component {
     );
   }
 }
-
-// export default AnimalCard;

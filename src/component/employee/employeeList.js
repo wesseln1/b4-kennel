@@ -10,7 +10,6 @@ class EmployeeList extends Component {
   };
 
   componentDidMount() {
-    console.log("EMPLOYEE LIST: ComponentDidMount");
     //getAll from EmployeeManager and hang on to that data; put it in state
     employeeManager.getAll().then(employees => {
       this.setState({
@@ -20,8 +19,7 @@ class EmployeeList extends Component {
   }
 
   render() {
-    // console.log("EMPLOYEE LIST: Render", this.state.employees);
-
+// rendering card container and calling card function to render ALL cards
     return (
       <div className="container-cards">
         {this.state.employees.map(employee => (
